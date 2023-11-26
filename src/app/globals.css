@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+
+body {
+  background: black;
+  height: 100vh;
+  font-family: 'Epilogue', sans-serif;
+}
+
