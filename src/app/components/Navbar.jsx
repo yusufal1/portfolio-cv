@@ -3,13 +3,7 @@ import React, {useState} from 'react'
 import { CgProfile } from "react-icons/cg";
 import { FaRegListAlt, FaRegFolderOpen, FaRegPaperPlane } from "react-icons/fa";
 
-const Navbar = () => {
-
-    const [active, setActive] = useState(0)
-    
-    const handleTabClick = (tabIndex) => {
-        setActive(tabIndex)
-    }
+const Navbar = ({active, handleTabClick}) => {
 
 
   return (
